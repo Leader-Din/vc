@@ -8,4 +8,7 @@ require_once "Controllers/WelcomeController.php";
 $route = new Router();
 $route->get("/", [WelcomeController::class, 'welcome']);
 
+$route->get("/Product", [LoginController::class, 'Product']);
+
+
 $route->route();
