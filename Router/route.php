@@ -10,4 +10,7 @@ $route = new Router();
 $route->get("/", [WelcomeController::class, 'welcome']);
 $route->get("/login", [LoginController::class, 'login']);
 
+$route->get("/Product", [LoginController::class, 'Product']);
+
+
 $route->route();
