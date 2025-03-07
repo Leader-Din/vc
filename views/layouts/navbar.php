@@ -8,8 +8,14 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="/">Home</a>
+<<<<<<< HEAD
                 <a class="nav-link active" aria-current="page" href="/users">User</a>
                 <a class="nav-link" href="">Other</a>
+=======
+                <a class="nav-link" href="">Other</a>
+                <a class="nav-link active" aria-current="page" href="/">Product</a>
+
+>>>>>>> 50b481152cffc3060bb94f0045fbe52d3088cffb
             </div>
         </div>
     </div>

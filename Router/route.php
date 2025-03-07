@@ -11,7 +11,4 @@ $route = new Router();
 $route->get("/", [WelcomeController::class, 'welcome']);
 $route->get("/login", [LoginController::class, 'login']);
 
-//route users
-$route->get("/users", [UserController::class, 'index']);
-
 $route->route();
